@@ -11,7 +11,6 @@ if (!roomId) {
 
 const textArea = document.querySelector("textarea");
 
-// Load WebSocket URL from the file
 fetch('/websocket_url.txt')
   .then(response => response.text())
   .then(websocketUrl => {
